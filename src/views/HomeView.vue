@@ -3,7 +3,7 @@
     <!-- <NavBar/> -->
       <CircleAnimation/>
       <section class="row" id="home">
-        <!-- <HomeSection/> -->
+        <HomeSection/>
       </section>
       <section class="row" id="about">
           <!-- <AboutSection :about="about" :hobbies="hobbies"/> -->
@@ -32,7 +32,7 @@
 <script>
 // import NavBar from '@/components/NavBar.vue'
 // import Footer from '@/components/Footer.vue'
-// import HomeSection from '@/components/HomeSection.vue'
+import HomeSection from '@/components/HomeSection.vue'
 // import AboutSection from '@/components/AboutSection.vue'
 // import ResumeSection from '@/components/ResumeSection.vue'
 // import SkillsSection from '@/components/SkillsSection.vue'
@@ -44,7 +44,7 @@ import CircleAnimation from '@/components/CircleAnimation.vue'
 export default {
   
   components: {
-    // HomeSection,
+    HomeSection,
     // AboutSection,
     // ResumeSection,
     // SkillsSection,
