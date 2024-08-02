@@ -121,7 +121,8 @@ transition: width 200ms ease;
 }
 
 .nav-link i:hover {
- color: rgb(21, 200, 200);
+ /* color: rgb(21, 200, 200); */
+ color: #f5f5f5;
  
 }
 
@@ -134,12 +135,15 @@ transition: width 200ms ease;
 }
 
 .navbar:hover .link-text:hover {
- color: rgb(21, 200, 200);
+ /* color: rgb(21, 200, 200); */
+ color: #a8a8a8;
 }
 
 .nav-link:hover i,
 .nav-link:hover .link-text {
- color: rgb(21, 200, 200);
+ /* color: rgb(21, 200, 200); */
+ color: #a8a8a8;
+ /* text-shadow: 1px 1px #fff; */
 }
 
 
@@ -201,7 +205,8 @@ transition: width 200ms ease;
 
 .navbar:hover .logo svg {
  transform: rotate(-180deg);
- color: rgb(21, 200, 200);
+ /* color: rgb(21, 200, 200); */
+ color: #a8a8a8;
  width: 35%;
 }
 
