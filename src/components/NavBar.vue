@@ -161,9 +161,11 @@ transition: width 200ms ease;
 
 .nav-link {
  color: #fff;
- font-family: "JetBrains Mono", monospace;
- font-optical-sizing: auto;
- font-style: normal;
+ /* font-family: "JetBrains Mono", monospace; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
  font-size: 1.3rem;
  text-align: left;
  /* margin-left: 2rem; */

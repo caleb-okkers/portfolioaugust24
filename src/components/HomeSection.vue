@@ -3,9 +3,10 @@
     <div class="row d-flex justify-content-center align-items-center">
         <div class="col d-flex justify-content-end">
             <div class="intro-div pb-5">
-                <h1 class="intro">I'M CALEB OKKERS</h1>
+                <p>Hi, my name is</p>
+                <h1 class="intro">CALEB OKKERS.</h1>
                 <h3 class="title">Web Developer</h3>
-                <p class="intro-text">I design exquisite interfaces, build pixel perfect projects and I inspire innovation.</p>
+                <p class="intro-text">I design and build pixel perfect projects that inspire innovation and provides satisfying digital experiences.</p>
                 <button class="about-button mx-auto">About me</button>
             </div>
         </div>
@@ -42,14 +43,26 @@ export default {
 
 h1 {
     font-size: 4rem !important;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
-h3 {
+.title {
     font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.18rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .about-button {
