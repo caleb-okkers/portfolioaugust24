@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="col me-auto">
-            <img class="profile" src="https://github.com/caleb-okkers/portfolioaugust24/blob/master/src/assets/6.png?raw=true" alt="">
+            <img class="profile" src="https://github.com/caleb-okkers/portfolioaugust24/blob/master/src/assets/p7enhanced.png?raw=true" alt="">
         </div>
     </div>
   </div>
@@ -27,7 +27,7 @@ export default {
 <style scoped>
 
 .profile {
-    aspect-ratio: 1;
+    /* aspect-ratio: 1; */
     width: 105%;
     margin-right: -10rem;
 }
