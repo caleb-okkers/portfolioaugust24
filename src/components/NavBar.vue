@@ -126,6 +126,7 @@ transition: width 200ms ease;
 
 .navbar:hover {
  width: 16.5rem;
+ background: #000;
 }
 
 .navbar:hover .link-text {
@@ -210,11 +211,13 @@ transition: width 200ms ease;
  text-transform: uppercase;
  text-align: center;
  color: #fff;
- background: #001a34;
+ background: rgba(0, 0, 0, 0);
  font-size: 1.5rem;
  letter-spacing: 0.3ch;
  width: 50%;
+ 
 }
+
 
 .logo svg {
  transform: rotate(0deg);
@@ -235,6 +238,7 @@ transition: width 200ms ease;
  /* color: #a8a8a8; */
  color: #fff;
  width: 35%;
+ 
 }
 
 

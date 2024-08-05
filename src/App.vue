@@ -4,7 +4,7 @@
     <main>
       <router-view/>
     </main>
-    <CircleAnimation/>
+    <!-- <CircleAnimation/> -->
     <Footer/>
   </div>
   
@@ -15,14 +15,14 @@
 <script>
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
-import CircleAnimation from './components/CircleAnimation.vue';
+// import CircleAnimation from './components/CircleAnimation.vue';
 
 export default {
   
   components: {
     NavBar,
     Footer,
-    CircleAnimation
+    // CircleAnimation
   }
 }
 </script>

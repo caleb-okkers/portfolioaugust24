@@ -28,7 +28,7 @@ export default {
 
 .profile {
     /* aspect-ratio: 1; */
-    width: 200%;
+    width: 105%;
     margin-right: 10rem !important;
 }
 
