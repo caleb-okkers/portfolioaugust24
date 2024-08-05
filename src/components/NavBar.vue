@@ -2,8 +2,7 @@
     <nav class="navbar">
      <ul class="navbar-nav">
        <li class="logo">
-       <a href="#home" class="nav-link">
-         <span class="link-text logo-text">Explore</span>
+         <!-- <span class="link-text logo-text">Explore</span> -->
          <svg
            aria-hidden="true"
            focusable="false"
@@ -27,7 +26,6 @@
              ></path>
            </g>
          </svg>
-       </a>
      </li>
        <li class="nav-item">
          <a href="#home" class="nav-link">
@@ -136,15 +134,20 @@ transition: width 200ms ease;
 
 .navbar:hover .link-text:hover {
  /* color: rgb(21, 200, 200); */
- color: #a8a8a8;
+ color: #fff;
 }
 
 .nav-link:hover i,
 .nav-link:hover .link-text {
  /* color: rgb(21, 200, 200); */
- color: #a8a8a8;
+ /* color: #a8a8a8; */
  /* text-shadow: 1px 1px #fff; */
+ color: #fff;
 }
+
+/* .nav-link:hover {
+  background: #000;
+} */
 
 
 
@@ -152,8 +155,9 @@ transition: width 200ms ease;
  display: flex;
  align-items: center;
  height: 5rem;
- color: var(--text-primary);
+ color: #fff;
  text-decoration: none;
+ transition: color 0.3s ease;
  /* filter: grayscale(100%) opacity(0.8); */
 }
 
@@ -172,7 +176,27 @@ transition: width 200ms ease;
  display: flex;
  align-items: center;
  height: 5rem;
- 
+ position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Adjust the height of the line */
+    bottom: 0;
+    left: 50%;
+    background-color: #fff; /* Adjust the color of the line */
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+/* .nav-link:hover {
+    color: #fff !important; /
+} */
+
+.nav-link:hover::after {
+    width: 80%;
+    left: 8%;
 }
 
 .link-text {
@@ -208,7 +232,8 @@ transition: width 200ms ease;
 .navbar:hover .logo svg {
  transform: rotate(-180deg);
  /* color: rgb(21, 200, 200); */
- color: #a8a8a8;
+ /* color: #a8a8a8; */
+ color: #fff;
  width: 35%;
 }
 

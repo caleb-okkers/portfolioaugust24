@@ -28,7 +28,7 @@ export default {
 
 .profile {
     aspect-ratio: 1;
-    width: 110%;
+    width: 105%;
     margin-right: -10rem;
 }
 
@@ -48,7 +48,8 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: #a69f94;
+  color: #fff;
+  text-shadow: 1px 1px #000;
 }
 
 .title {
@@ -124,7 +125,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #575757;
+  background-color: #000;
   z-index: 0;
   transition: transform 0.5s ease;
   transform: scaleX(0);
