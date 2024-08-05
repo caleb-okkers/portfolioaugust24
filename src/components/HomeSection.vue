@@ -1,7 +1,7 @@
 <template>
   <div class="container d-flex justify-content-center align-items-center">
     <div class="row d-flex justify-content-center align-items-center">
-        <div class="col d-flex justify-content-end">
+        <div class="col d-flex justify-content-center">
             <div class="intro-div pb-5">
                 <p class="intro-text">Hi, my name is</p>
                 <h1 class="intro">CALEB OKKERS.</h1>
@@ -28,8 +28,8 @@ export default {
 
 .profile {
     /* aspect-ratio: 1; */
-    width: 105%;
-    margin-right: -10rem;
+    width: 200%;
+    margin-right: 10rem !important;
 }
 
 .intro-div {
