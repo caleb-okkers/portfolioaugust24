@@ -11,6 +11,13 @@
     font-style: normal;
 }
 
+:root {
+    --primary: #061d19;
+    /* --primary: #061d12; */
+    /* --primary: #061d1c; */
+    --secondary: #B8860B;
+}
+
 /* universal selector */
 body::-webkit-scrollbar {
     display: none;
@@ -20,10 +27,21 @@ main {
     margin-left: 5rem;
 }
 
+@media only screen and (max-width: 600px) {
+    main {
+        margin-left: 0;
+    }
+    
+}
+
 
 section {
     min-height: 100vh;
-    background: #001a34;
+    /* background: var(--primary); */
+}
+
+#home {
+    background: var(--primary);
 }
 
 :root {
@@ -39,7 +57,8 @@ html {
 
 body {
     min-height: 100vh;
-    background: #001a34;
+    /* background: #001a34; */
+    background: var(--primary);
     overflow-x: hidden;
     overflow-y: scroll;
     margin: 0;

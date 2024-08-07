@@ -87,7 +87,7 @@
 width: 5rem;
 height: 100vh;
 position: fixed ;
-background-color: #001a34;
+background-color: var(--primary);
 top: 0;
 left: 0;
 z-index: 11;
@@ -126,23 +126,24 @@ transition: width 200ms ease;
 
 .navbar:hover {
  width: 16.5rem;
- background: #000;
+ /* background: #000; */
 }
 
 .navbar:hover .link-text {
  display: block;
 }
 
-.navbar:hover .link-text:hover {
- /* color: rgb(21, 200, 200); */
+/* .navbar:hover .link-text:hover {
+ color: rgb(21, 200, 200);
  color: #fff;
-}
+} */
 
 .nav-link:hover i,
 .nav-link:hover .link-text {
  /* color: rgb(21, 200, 200); */
  /* color: #a8a8a8; */
  /* text-shadow: 1px 1px #fff; */
+ /* color: #fff; */
  color: #fff;
 }
 
@@ -187,12 +188,12 @@ transition: width 200ms ease;
     height: 2px; /* Adjust the height of the line */
     bottom: 0;
     left: 50%;
-    background-color: #fff; /* Adjust the color of the line */
+    background-color: var(--secondary); /* Adjust the color of the line */
     transition: width 0.3s ease, left 0.3s ease;
 }
 
 /* .nav-link:hover {
-    color: #fff !important; /
+    color: var(--secondary) !important; 
 } */
 
 .nav-link:hover::after {
@@ -236,7 +237,8 @@ transition: width 200ms ease;
  transform: rotate(-180deg);
  /* color: rgb(21, 200, 200); */
  /* color: #a8a8a8; */
- color: #fff;
+ /* color: #fff; */
+ color: var(--secondary);
  width: 35%;
  
 }
@@ -256,6 +258,7 @@ transition: width 200ms ease;
 
 @media only screen and (max-width: 600px) {
  .navbar {
+   top: auto;
    bottom: 0;
    width: 100vw !important;
    height: 5rem;

@@ -19,7 +19,7 @@ export default {
     
     footer {
     color: #fff;
-    background: #001a34;
+    background: var(--primary);
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;

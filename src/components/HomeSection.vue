@@ -26,6 +26,7 @@ export default {
 
 <style scoped>
 
+
 .profile {
     /* aspect-ratio: 1; */
     width: 105%;
@@ -58,6 +59,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: var(--secondary);
 }
 
 p {
@@ -100,7 +102,7 @@ p {
 .btn {
   position: relative;
   overflow: hidden;
-  background-color: #001a34 !important;
+  background-color: var(--primary) !important;
   color: #fff !important;
   border-color: #fff !important;
   text-align: center !important;
@@ -139,10 +141,10 @@ p {
   transform: scaleX(1);
 }
 
-.btn:hover,
+/* .btn:hover,
 .about-button:hover::before {
   color: #001a34 !important; 
-}
+} */
 
 .btn span,
 .about-button span {
